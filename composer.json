@@ -1,5 +1,8 @@
 {
-    "require": {
-        "symfony/http-foundation": "^3.4"
-    }
+  "name": "lichtung/sharin",
+  "description": "a lite engine of web application",
+  "require": {
+    "php": "^7.0",
+    "symfony/http-foundation": "^3.4"
+  }
 }
