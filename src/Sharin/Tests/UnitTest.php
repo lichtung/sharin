@@ -6,12 +6,10 @@
  * Time: 20:26
  */
 
-namespace Sharin\Core;
+namespace Sharin\Tests;
 
 
-use Sharin\Unitest;
-
-class DispatcherTest extends Unitest
+class UnitTest
 {
 
 }

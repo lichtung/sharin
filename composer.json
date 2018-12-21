@@ -1,18 +1,23 @@
 {
-    "name": "lichtung/sharin",
-    "description": "a lite egine of web application",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Lich4ung",
-            "email": "linzhv@outlook.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {
-        "php": "^7.0",
-        "symfony/http-foundation": "^3.4",
-        "symfony/validator": "^3.4"
+  "name": "lichtung/sharin",
+  "description": "a lite egine of web application",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lich4ung",
+      "email": "linzhv@outlook.com"
     }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.0",
+    "symfony/http-foundation": "^3.4",
+    "symfony/validator": "^3.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sharin": "srv/Sharin/"
+    }
+  }
 }
